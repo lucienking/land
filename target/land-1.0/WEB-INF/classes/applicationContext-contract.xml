@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+        
+        <bean id="codeMapper" class="com.jksb.land.service.landContract.ContractConfig">
+	        <property name="farmMap">
+				<map>
+					<entry key="301" value="" />
+					<entry key="302" value="李明跃" />
+					<entry key="303" value="" />
+					<entry key="304" value="" />
+					<entry key="305" value="" />
+					<entry key="306" value="" />
+					<entry key="307" value="" />
+					<entry key="308" value="" />
+					<entry key="309" value="" />
+					<entry key="310" value="" />
+					<entry key="311" value="" />
+					<entry key="312" value="" />
+					<entry key="313" value="" />
+					<entry key="314" value="" />
+					<entry key="315" value="" />
+					<entry key="316" value="" />
+					<entry key="317" value="" />
+					<entry key="318" value="" />
+					<entry key="319" value="" />
+					<entry key="320" value="" />
+					<entry key="321" value="" />
+					<entry key="322" value="" />
+					<entry key="323" value="" />
+					<entry key="324" value="" />
+					<entry key="325" value="" />
+					<entry key="326" value="" />
+					<entry key="327" value="" />
+					<entry key="328" value="" />
+					<entry key="329" value="" />
+					<entry key="330" value="" />
+					<entry key="331" value="" />
+					<entry key="332" value="" />
+					<entry key="333" value="" />
+					<entry key="334" value="" />
+					<entry key="335" value="" />
+					<entry key="336" value="" />
+					<entry key="337" value="" />
+					<entry key="338" value="" />
+					<entry key="339" value="" />
+					<entry key="340" value="" />
+				</map>
+			</property>
+        </bean>
+        
+</beans>

@@ -1,0 +1,62 @@
+ 
+#-------------------------------------------------------------------------------
+# Common Settings
+hibernate.hbm2ddl.auto=update
+hibernate.jdbc.fetch_size=50
+hibernate.jdbc.batch_size=30
+hibernate.format_sql=true
+jpa.showSql=true
+#cas ip
+cas.address=http://10.215.200.121:8080
+#10.215.200.135:8080 
+#The current project web ip.
+self.address=http://10.215.200.134:8080
+#10.215.200.134
+#10.215.200.137
+#The current project web code.
+application.code=land
+#usm web ip.
+usm.address=http://10.215.200.121:8080
+#arcgis api url
+arcgis.api.url=http://10.215.201.151:8080
+
+#arcgis service url
+arcgis.service.url =http://10.215.200.122:6080/arcgis/rest/services
+arcgis151.service.url =http://10.215.201.151:6080/arcgis/rest/services
+#usm changepassword url
+usm.changepwd.url =http://10.215.200.121:8080/usm/user/changePwdBySelf
+#usm logout url
+usm.logout.url =http://10.215.200.121:8080/cas/logout?service=http://10.215.200.134:8080/land/public/logout.jsp
+#usm logout url
+
+-------------------mysql-------------------------------------
+
+jdbc.driverClassName=net.sourceforge.jtds.jdbc.Driver
+jdbc.url=jdbc:jtds:sqlserver://10.215.201.154:1433/land
+jdbc.username=sa
+jdbc.password=Jksb1234
+jdbc.dialect=org.hibernate.dialect.SQLServer2008Dialect
+jdbc.database=sqlserver
+
+arcgis.jdbc.driverClassName=net.sourceforge.jtds.jdbc.Driver
+arcgis.jdbc.url=jdbc:jtds:sqlserver://10.215.201.151:1433/rims_arcgis
+arcgis.jdbc.username=land
+arcgis.jdbc.password=land12345
+arcgis.jdbc.dialect=org.hibernate.dialect.SQLServer2008Dialect
+arcgis.jdbc.database=sqlserver
+
+super.jdbc.driverClassName=net.sourceforge.jtds.jdbc.Driver
+super.jdbc.url=jdbc:jtds:sqlserver://10.215.200.136:1433/rims_arcgis
+super.jdbc.username=sa
+super.jdbc.password=Jksb123456
+super.backup.dbname=arcgis
+super.backup.path=F:\\backup
+super.jdbc.dialect=org.hibernate.dialect.SQLServer2008Dialect
+super.jdbc.database=sqlserver
+
+gps.service.jdbc.driverClassName=com.mysql.jdbc.Driver
+gps.service.jdbc.url=jdbc:mysql://10.215.200.121:3306/server4mobile
+gps.service.jdbc.username=rims
+gps.service.jdbc.password=123456
+gps.jdbc.dialect=org.hibernate.dialect.MySQLDialect
+gps.jdbc.database=mysql

@@ -1,0 +1,11 @@
+com\jksb\land\repository\staticData\PlantingCropsDao.class
+com\jksb\land\entity\landInfo\BasicSituationOfLand.class
+com\jksb\land\entity\landInfo\ExternalCompanyOrPersonalLandRentForm.class
+com\jksb\land\web\landInfo\LandLeaseController.class
+com\jksb\land\service\landContract\ContractConfig.class
+com\jksb\land\entity\staticData\PlantingCropsEntity.class
+com\jksb\land\common\persistence\DynamicSpecifications$2.class
+com\jksb\land\repository\landInfo\LandLeaseDao.class
+com\jksb\land\service\staticData\PlantingCropsService.class
+com\jksb\land\service\landInfo\LandLeaseService.class
+com\jksb\land\entity\landInfo\OccupiedLandInfoForm.class

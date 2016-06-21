@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+div{
+	margin:0;
+	padding:0;
+}
+
+.inputUnit{
+	display:inline-block;
+	flaot:left;
+	padding:2em 1em;
+}
